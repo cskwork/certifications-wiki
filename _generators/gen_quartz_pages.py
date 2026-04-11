@@ -107,16 +107,24 @@ def _render_card_page(card: Card, links: list[str], subject_title: str) -> str:
     if card.summary:
         body += ["## 📖 핵심 개념", "", card.summary, ""]
 
+    if card.visualization:
+        body += ["## 🔍 시각화", "", card.visualization, ""]
+
+    if card.neighbor:
+        body += ["## ↔️ 이웃 개념 구분", "", card.neighbor, ""]
+
     if card.keywords:
-        body += ["**핵심 용어**", ""]
+        body += ["## 🔑 핵심 용어", ""]
         body += [f"- {kw}" for kw in card.keywords]
         body.append("")
 
     if card.self_check:
-        body += ["## ✅ 이해 확인", "", card.self_check, ""]
+        body += ["## ✅ 스스로 가르쳐보기", "", card.self_check, ""]
 
     if card.exam_tip:
-        body += ["## 🎯 시험 응용", "", f"> {card.exam_tip}", ""]
+        body += ["## 🎯 기출 포인트", ""]
+        body += [f"> {line}" if line else ">" for line in card.exam_tip.splitlines()]
+        body.append("")
 
     if links:
         body += ["## 🔗 연결 개념", ""]

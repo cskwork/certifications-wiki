@@ -1,11 +1,11 @@
 """bite-size-study 카드 파서 공용 모듈.
 
 gen_quartz_pages.py / export_svg.py가 공유하는 카드 메타/본문 파서.
-원래 build_index.py에 있던 로직을 추출했다.
 
 카드 원본 위치: ~/Documents/PARA/Resource/bite-size-study/content/cards/{subject}/
 각 카드는 frontmatter(yaml) + 본문 섹션:
-    왜 배우나 / 핵심 개념 / 키워드 / 이해 확인 / 기출 포인트 / 연결 개념
+    왜 배우나 / 핵심 개념 / 시각화 / 이웃 개념 구분 / 키워드 /
+    스스로 가르쳐보기 / 기출 포인트 / 연결 개념
 """
 from __future__ import annotations
 
@@ -41,6 +41,8 @@ class Card:
     priority: int
     why: str
     summary: str
+    visualization: str
+    neighbor: str
     keywords: list[str]
     self_check: str
     exam_tip: str
@@ -54,16 +56,26 @@ def parse_card(path: Path, wiki_folder: str) -> Card | None:
     fm = yaml.safe_load(m.group(1))
     body = m.group(2)
 
-    def _section(name: str) -> str:
-        pat = rf"###\s*{re.escape(name)}\s*\n(.*?)(?=\n###\s|\n##\s|\Z)"
-        sm = re.search(pat, body, re.DOTALL)
-        return sm.group(1).strip() if sm else ""
+    def _section(*names: str) -> str:
+        """섹션 본문을 원본 공백·줄바꿈 그대로 반환. 여러 이름은 하위호환용."""
+        for name in names:
+            pat = rf"###\s*{re.escape(name)}\s*\n(.*?)(?=\n###\s|\n##\s|\Z)"
+            sm = re.search(pat, body, re.DOTALL)
+            if sm:
+                return sm.group(1).strip()
+        return ""
 
     why = _section("왜 배우나")
     summary = _section("핵심 개념")
+    visualization = _section("시각화")
+    neighbor = _section("이웃 개념 구분", "이웃 개념")
     keywords_raw = _section("키워드")
-    self_check = _section("이해 확인")
-    exam_tip = re.sub(r"^>\s*", "", _section("기출 포인트")).strip()
+    self_check = _section("스스로 가르쳐보기", "이해 확인")
+    exam_tip = _section("기출 포인트")
+    # 인용 접두(> )만 제거. 내부 공백·줄바꿈은 유지.
+    exam_tip = "\n".join(
+        re.sub(r"^>\s?", "", line) for line in exam_tip.splitlines()
+    ).strip()
 
     keywords: list[str] = []
     for line in keywords_raw.splitlines():
@@ -78,10 +90,12 @@ def parse_card(path: Path, wiki_folder: str) -> Card | None:
         title=fm.get("title", path.stem),
         priority=int(fm.get("priority", 0)),
         why=why,
-        summary=" ".join(summary.split()),
+        summary=summary,
+        visualization=visualization,
+        neighbor=neighbor,
         keywords=keywords,
         self_check=self_check,
-        exam_tip=" ".join(exam_tip.split()),
+        exam_tip=exam_tip,
     )
 
 
