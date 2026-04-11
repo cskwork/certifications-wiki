@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0.0 0.0 1328.0 710.0" width="1328" height="710" style="max-width: 100%; height: auto; background: #ffffff;">
+  <defs><marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker></defs>
+  <rect x="40.0" y="40.0" width="1200.0" height="56.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="56.0" y="72.0"><tspan x="56.0" dy="0">CPU 스케줄링 알고리즘</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#555" x="56.0" y="88.0"><tspan x="56.0" dy="0">FCFS · SJF · SRT · RR · 우선순위  (선점 vs 비선점)</tspan></text>
+  <rect x="1080.0" y="48.0" width="104.0" height="28.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="1135.7" y="67.0"><tspan x="1135.7" dy="0">🔥 매회 출제</tspan></text>
+  <rect x="60.0" y="110.0" width="585.0" height="56.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1864ab" x="76.0" y="134.0"><tspan x="76.0" dy="0">선점 (Preemptive)</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#444" x="76.0" y="155.0"><tspan x="76.0" dy="0">SRT · RR · 우선순위(선점형) · 다단계 큐</tspan></text>
+  <rect x="655.0" y="110.0" width="585.0" height="56.0" rx="10" fill="#ffdeeb" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#c92a2a" x="671.0" y="134.0"><tspan x="671.0" dy="0">비선점 (Non-preemptive)</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#444" x="671.0" y="155.0"><tspan x="671.0" dy="0">FCFS · SJF · HRN · 우선순위(비선점형)</tspan></text>
+  <rect x="60.0" y="180.0" width="230.0" height="170.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="74.0" y="212.0"><tspan x="74.0" dy="0">FCFS</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="74.0" y="231.0"><tspan x="74.0" dy="0">First-Come First-Served</tspan></text>
+  <rect x="194.0" y="192.0" width="82.0" height="24.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#c92a2a" x="200.0" y="207.0"><tspan x="200.0" dy="0">비선점</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#444" x="74.0" y="258.0"><tspan x="74.0" dy="0">도착 순서대로 실행</tspan><tspan x="74.0" dy="15">단순·기아 없음</tspan><tspan x="74.0" dy="15">콘보이 효과 ↑</tspan></text>
+  <rect x="302.0" y="180.0" width="230.0" height="170.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="316.0" y="212.0"><tspan x="316.0" dy="0">SJF</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="316.0" y="231.0"><tspan x="316.0" dy="0">Shortest Job First</tspan></text>
+  <rect x="436.0" y="192.0" width="82.0" height="24.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#c92a2a" x="442.0" y="207.0"><tspan x="442.0" dy="0">비선점</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#444" x="316.0" y="258.0"><tspan x="316.0" dy="0">짧은 버스트 우선</tspan><tspan x="316.0" dy="15">최적 평균대기시간</tspan><tspan x="316.0" dy="15">기아 발생 가능</tspan></text>
+  <rect x="544.0" y="180.0" width="230.0" height="170.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="558.0" y="212.0"><tspan x="558.0" dy="0">SRT</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="558.0" y="231.0"><tspan x="558.0" dy="0">Shortest Remaining</tspan></text>
+  <rect x="678.0" y="192.0" width="82.0" height="24.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#1864ab" x="684.0" y="207.0"><tspan x="684.0" dy="0">선점</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#444" x="558.0" y="258.0"><tspan x="558.0" dy="0">남은 버스트 최단</tspan><tspan x="558.0" dy="15">SJF의 선점 버전</tspan><tspan x="558.0" dy="15">오버헤드 有</tspan></text>
+  <rect x="786.0" y="180.0" width="230.0" height="170.0" rx="10" fill="#ffe8cc" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="800.0" y="212.0"><tspan x="800.0" dy="0">RR</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="800.0" y="231.0"><tspan x="800.0" dy="0">Round Robin</tspan></text>
+  <rect x="920.0" y="192.0" width="82.0" height="24.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#1864ab" x="926.0" y="207.0"><tspan x="926.0" dy="0">선점</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#444" x="800.0" y="258.0"><tspan x="800.0" dy="0">타임퀀텀 순환</tspan><tspan x="800.0" dy="15">공평성 ↑</tspan><tspan x="800.0" dy="15">TQ가 성능 좌우</tspan></text>
+  <rect x="1028.0" y="180.0" width="230.0" height="170.0" rx="10" fill="#e5dbff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="1042.0" y="212.0"><tspan x="1042.0" dy="0">우선순위</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="1042.0" y="231.0"><tspan x="1042.0" dy="0">Priority</tspan></text>
+  <rect x="1162.0" y="192.0" width="82.0" height="24.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#1864ab" x="1168.0" y="207.0"><tspan x="1168.0" dy="0">선점/비선점</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#444" x="1042.0" y="258.0"><tspan x="1042.0" dy="0">우선순위 번호 기준</tspan><tspan x="1042.0" dy="15">기아(Starvation)</tspan><tspan x="1042.0" dy="15">→ 에이징으로 해결</tspan></text>
+  <rect x="60.0" y="370.0" width="400.0" height="200.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1e1e1e" x="76.0" y="396.0"><tspan x="76.0" dy="0">예제 프로세스</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="76.0" y="415.0"><tspan x="76.0" dy="0">(도착시간=0 가정)</tspan></text>
+  <rect x="80.0" y="430.0" width="150.0" height="30.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1e1e1e" x="92.0" y="450.0"><tspan x="92.0" dy="0">프로세스</tspan></text>
+  <rect x="240.0" y="430.0" width="150.0" height="30.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1e1e1e" x="252.0" y="450.0"><tspan x="252.0" dy="0">버스트</tspan></text>
+  <rect x="80.0" y="460.0" width="150.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1e1e1e" x="94.0" y="482.0"><tspan x="94.0" dy="0">P1</tspan></text>
+  <rect x="240.0" y="460.0" width="150.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1e1e1e" x="254.0" y="482.0"><tspan x="254.0" dy="0">6</tspan></text>
+  <rect x="80.0" y="492.0" width="150.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1e1e1e" x="94.0" y="514.0"><tspan x="94.0" dy="0">P2</tspan></text>
+  <rect x="240.0" y="492.0" width="150.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1e1e1e" x="254.0" y="514.0"><tspan x="254.0" dy="0">4</tspan></text>
+  <rect x="80.0" y="524.0" width="150.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1e1e1e" x="94.0" y="546.0"><tspan x="94.0" dy="0">P3</tspan></text>
+  <rect x="240.0" y="524.0" width="150.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1e1e1e" x="254.0" y="546.0"><tspan x="254.0" dy="0">2</tspan></text>
+  <rect x="480.0" y="370.0" width="760.0" height="200.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1e1e1e" x="496.0" y="396.0"><tspan x="496.0" dy="0">간트 차트 (Gantt Chart) — 평균대기시간 계산</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#c92a2a" x="496.0" y="433.0"><tspan x="496.0" dy="0">FCFS</tspan></text>
+  <rect x="580.0" y="416.0" width="240.0" height="28.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="705.1" y="435.0"><tspan x="705.1" dy="0">P1</tspan></text>
+  <rect x="820.0" y="416.0" width="160.0" height="28.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="905.1" y="435.0"><tspan x="905.1" dy="0">P2</tspan></text>
+  <rect x="980.0" y="416.0" width="80.0" height="28.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="1025.2" y="435.0"><tspan x="1025.2" dy="0">P3</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="1064.0" y="433.0"><tspan x="1064.0" dy="0">12</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1864ab" x="1060.0" y="434.0"><tspan x="1060.0" dy="0">평균대기 (0+6+10)/3 = 5.33</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#c92a2a" x="496.0" y="483.0"><tspan x="496.0" dy="0">SJF</tspan></text>
+  <rect x="580.0" y="466.0" width="80.0" height="28.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="625.1" y="485.0"><tspan x="625.1" dy="0">P3</tspan></text>
+  <rect x="660.0" y="466.0" width="160.0" height="28.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="745.1" y="485.0"><tspan x="745.1" dy="0">P2</tspan></text>
+  <rect x="820.0" y="466.0" width="240.0" height="28.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="945.1" y="485.0"><tspan x="945.1" dy="0">P1</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="1064.0" y="483.0"><tspan x="1064.0" dy="0">12</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1864ab" x="1060.0" y="484.0"><tspan x="1060.0" dy="0">평균대기 (0+2+6)/3 = 2.67  ← 최적</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#c92a2a" x="496.0" y="533.0"><tspan x="496.0" dy="0">RR (TQ=2)</tspan></text>
+  <rect x="580.0" y="516.0" width="80.0" height="28.0" rx="10" fill="#ffe8cc" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="625.1" y="535.0"><tspan x="625.1" dy="0">P1</tspan></text>
+  <rect x="660.0" y="516.0" width="80.0" height="28.0" rx="10" fill="#ffe8cc" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="705.1" y="535.0"><tspan x="705.1" dy="0">P2</tspan></text>
+  <rect x="740.0" y="516.0" width="80.0" height="28.0" rx="10" fill="#ffe8cc" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="785.1" y="535.0"><tspan x="785.1" dy="0">P3</tspan></text>
+  <rect x="820.0" y="516.0" width="80.0" height="28.0" rx="10" fill="#ffe8cc" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="865.1" y="535.0"><tspan x="865.1" dy="0">P1</tspan></text>
+  <rect x="900.0" y="516.0" width="80.0" height="28.0" rx="10" fill="#ffe8cc" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="945.1" y="535.0"><tspan x="945.1" dy="0">P2</tspan></text>
+  <rect x="980.0" y="516.0" width="80.0" height="28.0" rx="10" fill="#ffe8cc" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="1025.2" y="535.0"><tspan x="1025.2" dy="0">P1</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="1064.0" y="533.0"><tspan x="1064.0" dy="0">12</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1864ab" x="1060.0" y="534.0"><tspan x="1060.0" dy="0">평균반환 (12+10+6)/3 = 9.33</tspan></text>
+  <rect x="60.0" y="590.0" width="1180.0" height="80.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1e1e1e" x="80.0" y="616.0"><tspan x="80.0" dy="0">핵심 공식 (암기 필수)</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1864ab" x="80.0" y="640.0"><tspan x="80.0" dy="0">• 반환시간 = 완료시간 − 도착시간     • 대기시간 = 반환시간 − 버스트시간</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#c92a2a" x="80.0" y="659.0"><tspan x="80.0" dy="0">• RR: TQ↑ → FCFS에 수렴, TQ↓ → 문맥교환 오버헤드 ↑  • 기아 해결: 에이징(Aging)</tspan></text>
+</svg>

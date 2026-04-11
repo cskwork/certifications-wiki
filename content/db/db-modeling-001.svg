@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0.0 0.0 1364.0 570.0" width="1364" height="570" style="max-width: 100%; height: auto; background: #ffffff;">
+  <defs><marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker></defs>
+  <rect x="40.0" y="40.0" width="1200.0" height="56.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="56.0" y="72.0"><tspan x="56.0" dy="0">정규화 단계 (1NF → BCNF)</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#555" x="56.0" y="88.0"><tspan x="56.0" dy="0">중복 제거 · 이상현상(삽입/삭제/갱신) 방지</tspan></text>
+  <rect x="1080.0" y="48.0" width="104.0" height="28.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="1135.7" y="67.0"><tspan x="1135.7" dy="0">🔥 매회 출제</tspan></text>
+  <rect x="60.0" y="140.0" width="160.0" height="100.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="middle" fill="#1e1e1e" x="158.0" y="180.0"><tspan x="158.0" dy="0">비정규형</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="70.0" y="207.0"><tspan x="70.0" dy="0">반복그룹 有</tspan></text>
+  <path d="M220.0,190.0 L244.0,190.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="244.0" y="140.0" width="160.0" height="100.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="middle" fill="#1e1e1e" x="324.1" y="180.0"><tspan x="324.1" dy="0">1NF</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="254.0" y="207.0"><tspan x="254.0" dy="0">원자값만 허용</tspan></text>
+  <path d="M404.0,190.0 L428.0,190.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="428.0" y="140.0" width="160.0" height="100.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="middle" fill="#1e1e1e" x="508.1" y="180.0"><tspan x="508.1" dy="0">2NF</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="438.0" y="207.0"><tspan x="438.0" dy="0">부분 함수 종속 제거</tspan></text>
+  <path d="M588.0,190.0 L612.0,190.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="612.0" y="140.0" width="160.0" height="100.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="middle" fill="#1e1e1e" x="692.1" y="180.0"><tspan x="692.1" dy="0">3NF</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="622.0" y="207.0"><tspan x="622.0" dy="0">이행 함수 종속 제거</tspan></text>
+  <path d="M772.0,190.0 L796.0,190.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="796.0" y="140.0" width="160.0" height="100.0" rx="10" fill="#ffe8cc" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="middle" fill="#1e1e1e" x="874.2" y="180.0"><tspan x="874.2" dy="0">BCNF</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="806.0" y="207.0"><tspan x="806.0" dy="0">결정자 = 후보키</tspan></text>
+  <path d="M956.0,190.0 L980.0,190.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="980.0" y="140.0" width="160.0" height="100.0" rx="10" fill="#ffdeeb" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="middle" fill="#1e1e1e" x="1060.2" y="180.0"><tspan x="1060.2" dy="0">4NF</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="990.0" y="207.0"><tspan x="990.0" dy="0">다치 종속 제거</tspan></text>
+  <path d="M1140.0,190.0 L1164.0,190.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="1164.0" y="140.0" width="160.0" height="100.0" rx="10" fill="#e5dbff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="middle" fill="#1e1e1e" x="1244.2" y="180.0"><tspan x="1244.2" dy="0">5NF</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="1174.0" y="207.0"><tspan x="1174.0" dy="0">조인 종속 제거</tspan></text>
+  <rect x="60.0" y="300.0" width="1180.0" height="80.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="80.0" y="334.0"><tspan x="80.0" dy="0">암기법: 도·부·이·결·다·조</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#444" x="80.0" y="360.0"><tspan x="80.0" dy="0">도메인 원자값 → 부분종속 → 이행종속 → 결정자=후보키 → 다치종속 → 조인종속</tspan></text>
+  <rect x="60.0" y="410.0" width="1180.0" height="120.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="80.0" y="440.0"><tspan x="80.0" dy="0">이상현상(Anomaly) — 정규화로 제거 대상</tspan></text>
+  <rect x="80.0" y="456.0" width="370.0" height="60.0" rx="10" fill="#fff5f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1e1e1e" x="94.0" y="480.0"><tspan x="94.0" dy="0">삽입 이상</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#555" x="94.0" y="501.0"><tspan x="94.0" dy="0">원치 않는 데이터 강제 삽입</tspan></text>
+  <rect x="470.0" y="456.0" width="370.0" height="60.0" rx="10" fill="#fff5f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1e1e1e" x="484.0" y="480.0"><tspan x="484.0" dy="0">삭제 이상</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#555" x="484.0" y="501.0"><tspan x="484.0" dy="0">필요한 데이터까지 함께 삭제</tspan></text>
+  <rect x="860.0" y="456.0" width="370.0" height="60.0" rx="10" fill="#fff5f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1e1e1e" x="874.0" y="480.0"><tspan x="874.0" dy="0">갱신 이상</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#555" x="874.0" y="501.0"><tspan x="874.0" dy="0">일부만 수정되어 불일치 발생</tspan></text>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0.0 0.0 1280.0 660.0" width="1280" height="660" style="max-width: 100%; height: auto; background: #ffffff;">
+  <defs><marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker></defs>
+  <rect x="40.0" y="40.0" width="1200.0" height="56.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="56.0" y="72.0"><tspan x="56.0" dy="0">집계함수 &amp; GROUP BY</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#555" x="56.0" y="88.0"><tspan x="56.0" dy="0">COUNT · SUM · AVG · MAX · MIN + HAVING</tspan></text>
+  <rect x="1080.0" y="48.0" width="104.0" height="28.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="1135.7" y="67.0"><tspan x="1135.7" dy="0">🔥 매회 출제</tspan></text>
+  <rect x="60.0" y="150.0" width="150.0" height="60.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="middle" fill="#1e1e1e" x="130.6" y="184.0"><tspan x="130.6" dy="0">FROM</tspan></text>
+  <path d="M210.0,180.0 L224.0,180.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="224.0" y="150.0" width="150.0" height="60.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="middle" fill="#1e1e1e" x="292.0" y="184.0"><tspan x="292.0" dy="0">WHERE</tspan></text>
+  <path d="M374.0,180.0 L388.0,180.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="388.0" y="150.0" width="150.0" height="60.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="middle" fill="#1e1e1e" x="448.2" y="184.0"><tspan x="448.2" dy="0">GROUP BY</tspan></text>
+  <path d="M538.0,180.0 L552.0,180.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="552.0" y="150.0" width="150.0" height="60.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="middle" fill="#1e1e1e" x="637.0" y="184.0"><tspan x="637.0" dy="0">집계함수</tspan></text>
+  <path d="M702.0,180.0 L716.0,180.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="716.0" y="150.0" width="150.0" height="60.0" rx="10" fill="#ffe8cc" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="middle" fill="#1e1e1e" x="781.4" y="184.0"><tspan x="781.4" dy="0">HAVING</tspan></text>
+  <path d="M866.0,180.0 L880.0,180.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="880.0" y="150.0" width="150.0" height="60.0" rx="10" fill="#ffdeeb" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="middle" fill="#1e1e1e" x="945.4" y="184.0"><tspan x="945.4" dy="0">SELECT</tspan></text>
+  <path d="M1030.0,180.0 L1044.0,180.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="1044.0" y="150.0" width="150.0" height="60.0" rx="10" fill="#e5dbff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="middle" fill="#1e1e1e" x="1104.2" y="184.0"><tspan x="1104.2" dy="0">ORDER BY</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#555" x="60.0" y="136.0"><tspan x="60.0" dy="0">실행 순서 파이프라인 →</tspan></text>
+  <rect x="60.0" y="260.0" width="560.0" height="360.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="80.0" y="294.0"><tspan x="80.0" dy="0">NULL 처리 규칙</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#c92a2a" x="80.0" y="321.0"><tspan x="80.0" dy="0">COUNT(*) 만 NULL 포함, 나머지는 모두 NULL 제외</tspan></text>
+  <rect x="80.0" y="346.0" width="150.0" height="34.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1e1e1e" x="92.0" y="368.0"><tspan x="92.0" dy="0">함수</tspan></text>
+  <rect x="240.0" y="346.0" width="150.0" height="34.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1e1e1e" x="252.0" y="368.0"><tspan x="252.0" dy="0">NULL 포함?</tspan></text>
+  <rect x="380.0" y="346.0" width="200.0" height="34.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1e1e1e" x="392.0" y="368.0"><tspan x="392.0" dy="0">비고</tspan></text>
+  <rect x="80.0" y="380.0" width="150.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="92.0" y="405.0"><tspan x="92.0" dy="0">COUNT(*)</tspan></text>
+  <rect x="240.0" y="380.0" width="150.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="252.0" y="405.0"><tspan x="252.0" dy="0">O 포함</tspan></text>
+  <rect x="380.0" y="380.0" width="200.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="392.0" y="405.0"><tspan x="392.0" dy="0">전체 행 수</tspan></text>
+  <rect x="80.0" y="418.0" width="150.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="92.0" y="443.0"><tspan x="92.0" dy="0">COUNT(컬럼)</tspan></text>
+  <rect x="240.0" y="418.0" width="150.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="252.0" y="443.0"><tspan x="252.0" dy="0">X 제외</tspan></text>
+  <rect x="380.0" y="418.0" width="200.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="392.0" y="443.0"><tspan x="392.0" dy="0">NULL 제외 행 수</tspan></text>
+  <rect x="80.0" y="456.0" width="150.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="92.0" y="481.0"><tspan x="92.0" dy="0">SUM</tspan></text>
+  <rect x="240.0" y="456.0" width="150.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="252.0" y="481.0"><tspan x="252.0" dy="0">X 제외</tspan></text>
+  <rect x="380.0" y="456.0" width="200.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="392.0" y="481.0"><tspan x="392.0" dy="0">NULL은 0이 아님</tspan></text>
+  <rect x="80.0" y="494.0" width="150.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="92.0" y="519.0"><tspan x="92.0" dy="0">AVG</tspan></text>
+  <rect x="240.0" y="494.0" width="150.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="252.0" y="519.0"><tspan x="252.0" dy="0">X 제외</tspan></text>
+  <rect x="380.0" y="494.0" width="200.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="392.0" y="519.0"><tspan x="392.0" dy="0">분모도 NULL 제외</tspan></text>
+  <rect x="80.0" y="532.0" width="150.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="92.0" y="557.0"><tspan x="92.0" dy="0">MAX / MIN</tspan></text>
+  <rect x="240.0" y="532.0" width="150.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="252.0" y="557.0"><tspan x="252.0" dy="0">X 제외</tspan></text>
+  <rect x="380.0" y="532.0" width="200.0" height="38.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="392.0" y="557.0"><tspan x="392.0" dy="0">NULL은 비교 대상 아님</tspan></text>
+  <rect x="640.0" y="260.0" width="600.0" height="360.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="660.0" y="294.0"><tspan x="660.0" dy="0">WHERE vs HAVING</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1864ab" x="660.0" y="326.0"><tspan x="660.0" dy="0">WHERE</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="660.0" y="349.0"><tspan x="660.0" dy="0">• 그룹화 &#x27;이전&#x27; 행 필터</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="660.0" y="369.0"><tspan x="660.0" dy="0">• 집계함수 사용 불가</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#c92a2a" x="660.0" y="416.0"><tspan x="660.0" dy="0">HAVING</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="660.0" y="439.0"><tspan x="660.0" dy="0">• 그룹화 &#x27;이후&#x27; 집계 결과 필터</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="660.0" y="459.0"><tspan x="660.0" dy="0">• 집계함수 조건으로 사용 가능</tspan></text>
+  <rect x="660.0" y="480.0" width="560.0" height="120.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="678.0" y="505.0"><tspan x="678.0" dy="0">SELECT 학과, COUNT(*)</tspan><tspan x="678.0" dy="16">FROM 학생</tspan><tspan x="678.0" dy="16">WHERE 학년 &gt;= 2        -- 행 필터</tspan><tspan x="678.0" dy="16">GROUP BY 학과</tspan><tspan x="678.0" dy="16">HAVING COUNT(*) &gt;= 3;  -- 그룹 필터</tspan></text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0.0 0.0 1285.0 770.0" width="1285" height="770" style="max-width: 100%; height: auto; background: #ffffff;">
+  <defs><marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker></defs>
+  <rect x="40.0" y="40.0" width="1200.0" height="56.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="56.0" y="72.0"><tspan x="56.0" dy="0">GoF 행위(Behavioral) 패턴 11가지</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#555" x="56.0" y="88.0"><tspan x="56.0" dy="0">객체 간 책임·알고리즘 분배 · 통신 방식 · 상태 관리 (비중 최대)</tspan></text>
+  <rect x="1080.0" y="48.0" width="104.0" height="28.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="1135.7" y="67.0"><tspan x="1135.7" dy="0">🔥 매회 출제</tspan></text>
+  <rect x="60.0" y="110.0" width="1180.0" height="44.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#c92a2a" x="80.0" y="136.0"><tspan x="80.0" dy="0">GoF 3분류 중 가장 많은 11가지 — 빈출 Top 3: Iterator · Observer · Strategy</tspan></text>
+  <rect x="60.0" y="180.0" width="285.0" height="140.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="72.0" y="208.0"><tspan x="72.0" dy="0">Chain of Resp.</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1864ab" x="72.0" y="229.0"><tspan x="72.0" dy="0">책임 연쇄</tspan></text>
+  <rect x="72.0" y="240.0" width="261.0" height="68.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="80.0" y="262.0"><tspan x="80.0" dy="0">요청 처리 가능 객체를 연쇄 탐색</tspan></text>
+  <rect x="360.0" y="180.0" width="285.0" height="140.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="372.0" y="208.0"><tspan x="372.0" dy="0">Command</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1864ab" x="372.0" y="229.0"><tspan x="372.0" dy="0">커맨드</tspan></text>
+  <rect x="372.0" y="240.0" width="261.0" height="68.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="380.0" y="262.0"><tspan x="380.0" dy="0">요청을 객체로 캡슐화 · Undo/Redo</tspan></text>
+  <rect x="660.0" y="180.0" width="285.0" height="140.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="672.0" y="208.0"><tspan x="672.0" dy="0">Interpreter</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1864ab" x="672.0" y="229.0"><tspan x="672.0" dy="0">인터프리터</tspan></text>
+  <rect x="672.0" y="240.0" width="261.0" height="68.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="680.0" y="262.0"><tspan x="680.0" dy="0">언어 문법을 클래스로 표현</tspan></text>
+  <rect x="960.0" y="180.0" width="285.0" height="140.0" rx="10" fill="#ffe8cc" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="972.0" y="208.0"><tspan x="972.0" dy="0">Iterator</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1864ab" x="972.0" y="229.0"><tspan x="972.0" dy="0">이터레이터</tspan></text>
+  <rect x="972.0" y="240.0" width="261.0" height="68.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="980.0" y="262.0"><tspan x="980.0" dy="0">내부 노출 없이 순차 접근</tspan></text>
+  <rect x="60.0" y="335.0" width="285.0" height="140.0" rx="10" fill="#ffdeeb" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="72.0" y="363.0"><tspan x="72.0" dy="0">Mediator</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1864ab" x="72.0" y="384.0"><tspan x="72.0" dy="0">중재자</tspan></text>
+  <rect x="72.0" y="395.0" width="261.0" height="68.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="80.0" y="417.0"><tspan x="80.0" dy="0">객체 간 통신을 중재 객체가 담당</tspan></text>
+  <rect x="360.0" y="335.0" width="285.0" height="140.0" rx="10" fill="#e5dbff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="372.0" y="363.0"><tspan x="372.0" dy="0">Memento</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1864ab" x="372.0" y="384.0"><tspan x="372.0" dy="0">메멘토</tspan></text>
+  <rect x="372.0" y="395.0" width="261.0" height="68.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="380.0" y="417.0"><tspan x="380.0" dy="0">객체 상태 저장 · 이전 상태 복원</tspan></text>
+  <rect x="660.0" y="335.0" width="285.0" height="140.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="672.0" y="363.0"><tspan x="672.0" dy="0">Observer</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1864ab" x="672.0" y="384.0"><tspan x="672.0" dy="0">옵저버</tspan></text>
+  <rect x="672.0" y="395.0" width="261.0" height="68.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="680.0" y="417.0"><tspan x="680.0" dy="0">상태 변화 시 1:N 자동 통지</tspan></text>
+  <rect x="960.0" y="335.0" width="285.0" height="140.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="972.0" y="363.0"><tspan x="972.0" dy="0">State</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1864ab" x="972.0" y="384.0"><tspan x="972.0" dy="0">상태</tspan></text>
+  <rect x="972.0" y="395.0" width="261.0" height="68.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="980.0" y="417.0"><tspan x="980.0" dy="0">상태에 따라 행동 변경</tspan></text>
+  <rect x="60.0" y="490.0" width="285.0" height="140.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="72.0" y="518.0"><tspan x="72.0" dy="0">Strategy</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1864ab" x="72.0" y="539.0"><tspan x="72.0" dy="0">전략</tspan></text>
+  <rect x="72.0" y="550.0" width="261.0" height="68.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="80.0" y="572.0"><tspan x="80.0" dy="0">알고리즘 캡슐화 · 런타임 교체</tspan></text>
+  <rect x="360.0" y="490.0" width="285.0" height="140.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="372.0" y="518.0"><tspan x="372.0" dy="0">Template Method</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1864ab" x="372.0" y="539.0"><tspan x="372.0" dy="0">템플릿 메서드</tspan></text>
+  <rect x="372.0" y="550.0" width="261.0" height="68.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="380.0" y="572.0"><tspan x="380.0" dy="0">알고리즘 골격 상위 · 구현 하위</tspan></text>
+  <rect x="660.0" y="490.0" width="285.0" height="140.0" rx="10" fill="#ffe8cc" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="672.0" y="518.0"><tspan x="672.0" dy="0">Visitor</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1864ab" x="672.0" y="539.0"><tspan x="672.0" dy="0">방문자</tspan></text>
+  <rect x="672.0" y="550.0" width="261.0" height="68.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="680.0" y="572.0"><tspan x="680.0" dy="0">구조와 연산 분리 · 이중 디스패치</tspan></text>
+  <rect x="960.0" y="490.0" width="285.0" height="140.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1e1e1e" x="972.0" y="516.0"><tspan x="972.0" dy="0">혼동 주의</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#c92a2a" x="972.0" y="539.0"><tspan x="972.0" dy="0">Facade = 구조 패턴</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#c92a2a" x="972.0" y="559.0"><tspan x="972.0" dy="0">Iterator = 행위 패턴</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#444" x="972.0" y="586.0"><tspan x="972.0" dy="0">알고리즘 교체 → Strategy</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#444" x="972.0" y="606.0"><tspan x="972.0" dy="0">상태 기반 행동 → State</tspan></text>
+  <rect x="60.0" y="660.0" width="1180.0" height="70.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1e1e1e" x="80.0" y="686.0"><tspan x="80.0" dy="0">기출 포인트</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#c92a2a" x="80.0" y="709.0"><tspan x="80.0" dy="0">• 2024-2회: Iterator 설명 빈칸  • 행위 11개 &gt; 구조 7개 &gt; 생성 5개 (총 23)  • &#x27;행위 아닌 것&#x27; 고르는 문제 단골</tspan></text>
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20.0 0.0 1300.0 730.0" width="1300" height="730" style="max-width: 100%; height: auto; background: #ffffff;">
+  <defs><marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker></defs>
+  <rect x="40.0" y="40.0" width="1200.0" height="56.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="56.0" y="72.0"><tspan x="56.0" dy="0">연결 리스트 (Linked List)</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#555" x="56.0" y="88.0"><tspan x="56.0" dy="0">노드 = data + next · 동적 할당 · 삽입/삭제 O(1)</tspan></text>
+  <rect x="1080.0" y="48.0" width="104.0" height="28.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="1135.7" y="67.0"><tspan x="1135.7" dy="0">🔥 매회 출제</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1864ab" x="60.0" y="136.0"><tspan x="60.0" dy="0">단일 연결 리스트 (Singly)</tspan></text>
+  <rect x="60.0" y="150.0" width="110.0" height="60.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <path d="M126.0,150.0 L126.0,210.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="78.0" y="188.0"><tspan x="78.0" dy="0">3</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="134.0" y="183.0"><tspan x="134.0" dy="0">next</tspan></text>
+  <path d="M170.0,180.0 L210.0,180.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="210.0" y="150.0" width="110.0" height="60.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <path d="M276.0,150.0 L276.0,210.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="228.0" y="188.0"><tspan x="228.0" dy="0">1</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="284.0" y="183.0"><tspan x="284.0" dy="0">next</tspan></text>
+  <path d="M320.0,180.0 L360.0,180.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="360.0" y="150.0" width="110.0" height="60.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <path d="M426.0,150.0 L426.0,210.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="378.0" y="188.0"><tspan x="378.0" dy="0">4</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="434.0" y="183.0"><tspan x="434.0" dy="0">next</tspan></text>
+  <path d="M470.0,180.0 L510.0,180.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="510.0" y="150.0" width="110.0" height="60.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <path d="M576.0,150.0 L576.0,210.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="528.0" y="188.0"><tspan x="528.0" dy="0">2</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="584.0" y="183.0"><tspan x="584.0" dy="0">next</tspan></text>
+  <path d="M620.0,180.0 L660.0,180.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#c92a2a" x="664.0" y="182.0"><tspan x="664.0" dy="0">NULL</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#2b8a3e" x="20.0" y="182.0"><tspan x="20.0" dy="0">head→</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#862e9c" x="60.0" y="256.0"><tspan x="60.0" dy="0">이중 연결 리스트 (Doubly)</tspan></text>
+  <rect x="60.0" y="270.0" width="140.0" height="60.0" rx="10" fill="#e5dbff" stroke="#1e1e1e" stroke-width="2"/>
+  <path d="M100.0,270.0 L100.0,330.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M156.0,270.0 L156.0,330.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="10" text-anchor="start" fill="#555" x="66.0" y="302.0"><tspan x="66.0" dy="0">prev</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="114.0" y="308.0"><tspan x="114.0" dy="0">A</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="10" text-anchor="start" fill="#555" x="162.0" y="302.0"><tspan x="162.0" dy="0">next</tspan></text>
+  <path d="M200.0,292.0 L240.0,292.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <path d="M240.0,310.0 L200.0,310.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="240.0" y="270.0" width="140.0" height="60.0" rx="10" fill="#e5dbff" stroke="#1e1e1e" stroke-width="2"/>
+  <path d="M280.0,270.0 L280.0,330.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M336.0,270.0 L336.0,330.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="10" text-anchor="start" fill="#555" x="246.0" y="302.0"><tspan x="246.0" dy="0">prev</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="294.0" y="308.0"><tspan x="294.0" dy="0">B</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="10" text-anchor="start" fill="#555" x="342.0" y="302.0"><tspan x="342.0" dy="0">next</tspan></text>
+  <path d="M380.0,292.0 L420.0,292.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <path d="M420.0,310.0 L380.0,310.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="420.0" y="270.0" width="140.0" height="60.0" rx="10" fill="#e5dbff" stroke="#1e1e1e" stroke-width="2"/>
+  <path d="M460.0,270.0 L460.0,330.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M516.0,270.0 L516.0,330.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="10" text-anchor="start" fill="#555" x="426.0" y="302.0"><tspan x="426.0" dy="0">prev</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="474.0" y="308.0"><tspan x="474.0" dy="0">C</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="10" text-anchor="start" fill="#555" x="522.0" y="302.0"><tspan x="522.0" dy="0">next</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#c92a2a" x="60.0" y="376.0"><tspan x="60.0" dy="0">원형 연결 리스트 (Circular)</tspan></text>
+  <rect x="60.0" y="390.0" width="110.0" height="60.0" rx="10" fill="#ffdeeb" stroke="#1e1e1e" stroke-width="2"/>
+  <path d="M126.0,390.0 L126.0,450.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="78.0" y="428.0"><tspan x="78.0" dy="0">1</tspan></text>
+  <path d="M170.0,420.0 L210.0,420.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="210.0" y="390.0" width="110.0" height="60.0" rx="10" fill="#ffdeeb" stroke="#1e1e1e" stroke-width="2"/>
+  <path d="M276.0,390.0 L276.0,450.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="228.0" y="428.0"><tspan x="228.0" dy="0">2</tspan></text>
+  <path d="M320.0,420.0 L360.0,420.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="360.0" y="390.0" width="110.0" height="60.0" rx="10" fill="#ffdeeb" stroke="#1e1e1e" stroke-width="2"/>
+  <path d="M426.0,390.0 L426.0,450.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="378.0" y="428.0"><tspan x="378.0" dy="0">3</tspan></text>
+  <path d="M490.0,456.0 L115.0,456.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <path d="M490.0,456.0 L490.0,420.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <path d="M115.0,456.0 L115.0,450.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#555" x="500.0" y="475.0"><tspan x="500.0" dy="0">tail.next → head</tspan></text>
+  <rect x="720.0" y="120.0" width="520.0" height="240.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="734.0" y="148.0"><tspan x="734.0" dy="0">C 노드 구조 &amp; 순회</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="734.0" y="173.0"><tspan x="734.0" dy="0">typedef struct Node {</tspan><tspan x="734.0" dy="16">    int data;</tspan><tspan x="734.0" dy="16">    struct Node *next;</tspan><tspan x="734.0" dy="16">} Node;</tspan><tspan x="734.0" dy="16"></tspan><tspan x="734.0" dy="16">Node *p = head;</tspan><tspan x="734.0" dy="16">while (p != NULL) {</tspan><tspan x="734.0" dy="16">    printf(&quot;%d &quot;, p-&gt;data);</tspan><tspan x="734.0" dy="16">    p = p-&gt;next;</tspan><tspan x="734.0" dy="16">}</tspan></text>
+  <rect x="720.0" y="380.0" width="520.0" height="220.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="734.0" y="408.0"><tspan x="734.0" dy="0">배열 vs 연결 리스트</tspan></text>
+  <rect x="734.0" y="424.0" width="120.0" height="30.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="742.0" y="443.0"><tspan x="742.0" dy="0">구분</tspan></text>
+  <rect x="854.0" y="424.0" width="180.0" height="30.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="862.0" y="443.0"><tspan x="862.0" dy="0">배열</tspan></text>
+  <rect x="1034.0" y="424.0" width="200.0" height="30.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#1e1e1e" x="1042.0" y="443.0"><tspan x="1042.0" dy="0">연결 리스트</tspan></text>
+  <rect x="734.0" y="454.0" width="120.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="742.0" y="474.0"><tspan x="742.0" dy="0">메모리</tspan></text>
+  <rect x="854.0" y="454.0" width="180.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="862.0" y="474.0"><tspan x="862.0" dy="0">연속</tspan></text>
+  <rect x="1034.0" y="454.0" width="200.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="1042.0" y="474.0"><tspan x="1042.0" dy="0">불연속(동적)</tspan></text>
+  <rect x="734.0" y="486.0" width="120.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="742.0" y="506.0"><tspan x="742.0" dy="0">임의 접근</tspan></text>
+  <rect x="854.0" y="486.0" width="180.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="862.0" y="506.0"><tspan x="862.0" dy="0">O(1)</tspan></text>
+  <rect x="1034.0" y="486.0" width="200.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="1042.0" y="506.0"><tspan x="1042.0" dy="0">O(n)</tspan></text>
+  <rect x="734.0" y="518.0" width="120.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="742.0" y="538.0"><tspan x="742.0" dy="0">삽입/삭제</tspan></text>
+  <rect x="854.0" y="518.0" width="180.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="862.0" y="538.0"><tspan x="862.0" dy="0">O(n) 이동 필요</tspan></text>
+  <rect x="1034.0" y="518.0" width="200.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="1042.0" y="538.0"><tspan x="1042.0" dy="0">O(1) 포인터만</tspan></text>
+  <rect x="734.0" y="550.0" width="120.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="742.0" y="570.0"><tspan x="742.0" dy="0">크기</tspan></text>
+  <rect x="854.0" y="550.0" width="180.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="862.0" y="570.0"><tspan x="862.0" dy="0">고정</tspan></text>
+  <rect x="1034.0" y="550.0" width="200.0" height="32.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="1042.0" y="570.0"><tspan x="1042.0" dy="0">동적</tspan></text>
+  <rect x="60.0" y="620.0" width="1180.0" height="70.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1e1e1e" x="80.0" y="646.0"><tspan x="80.0" dy="0">기출 포인트</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#c92a2a" x="80.0" y="671.0"><tspan x="80.0" dy="0">• 2025-1회: 순회 코드 → 출력 35421   • 2025-2회: 삽입 후 순회 → 3 1 2   • p-&gt;data == (*p).data</tspan></text>
+</svg>

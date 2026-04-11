@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100.0 0.0 1380.0 658.0" width="1380" height="658" style="max-width: 100%; height: auto; background: #ffffff;">
+  <defs><marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker></defs>
+  <rect x="40.0" y="40.0" width="1200.0" height="56.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="56.0" y="72.0"><tspan x="56.0" dy="0">릴레이션 구성 요소</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#555" x="56.0" y="88.0"><tspan x="56.0" dy="0">Tuple · Attribute · Domain · Degree · Cardinality</tspan></text>
+  <rect x="1080.0" y="48.0" width="104.0" height="28.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="1135.7" y="67.0"><tspan x="1135.7" dy="0">🔥 매회 출제</tspan></text>
+  <rect x="200.0" y="150.0" width="150.0" height="48.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="middle" fill="#1e1e1e" x="281.0" y="180.0"><tspan x="281.0" dy="0">학번</tspan></text>
+  <rect x="350.0" y="150.0" width="150.0" height="48.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="middle" fill="#1e1e1e" x="431.0" y="180.0"><tspan x="431.0" dy="0">이름</tspan></text>
+  <rect x="500.0" y="150.0" width="150.0" height="48.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="middle" fill="#1e1e1e" x="581.0" y="180.0"><tspan x="581.0" dy="0">학과</tspan></text>
+  <rect x="650.0" y="150.0" width="150.0" height="48.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="middle" fill="#1e1e1e" x="731.0" y="180.0"><tspan x="731.0" dy="0">학년</tspan></text>
+  <rect x="200.0" y="198.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="265.9" y="226.0"><tspan x="265.9" dy="0">2024001</tspan></text>
+  <rect x="350.0" y="198.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="434.0" y="226.0"><tspan x="434.0" dy="0">김철수</tspan></text>
+  <rect x="500.0" y="198.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="583.0" y="226.0"><tspan x="583.0" dy="0">컴공</tspan></text>
+  <rect x="650.0" y="198.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="728.9" y="226.0"><tspan x="728.9" dy="0">3</tspan></text>
+  <rect x="200.0" y="246.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="265.9" y="274.0"><tspan x="265.9" dy="0">2024002</tspan></text>
+  <rect x="350.0" y="246.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="434.0" y="274.0"><tspan x="434.0" dy="0">이영희</tspan></text>
+  <rect x="500.0" y="246.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="583.0" y="274.0"><tspan x="583.0" dy="0">전자</tspan></text>
+  <rect x="650.0" y="246.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="728.9" y="274.0"><tspan x="728.9" dy="0">2</tspan></text>
+  <rect x="200.0" y="294.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="265.9" y="322.0"><tspan x="265.9" dy="0">2024003</tspan></text>
+  <rect x="350.0" y="294.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="434.0" y="322.0"><tspan x="434.0" dy="0">박민수</tspan></text>
+  <rect x="500.0" y="294.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="583.0" y="322.0"><tspan x="583.0" dy="0">기계</tspan></text>
+  <rect x="650.0" y="294.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="728.9" y="322.0"><tspan x="728.9" dy="0">4</tspan></text>
+  <rect x="200.0" y="342.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="265.9" y="370.0"><tspan x="265.9" dy="0">2024004</tspan></text>
+  <rect x="350.0" y="342.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="434.0" y="370.0"><tspan x="434.0" dy="0">정수진</tspan></text>
+  <rect x="500.0" y="342.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="583.0" y="370.0"><tspan x="583.0" dy="0">컴공</tspan></text>
+  <rect x="650.0" y="342.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="728.9" y="370.0"><tspan x="728.9" dy="0">1</tspan></text>
+  <rect x="200.0" y="390.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="265.9" y="418.0"><tspan x="265.9" dy="0">2024005</tspan></text>
+  <rect x="350.0" y="390.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="434.0" y="418.0"><tspan x="434.0" dy="0">홍길동</tspan></text>
+  <rect x="500.0" y="390.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="583.0" y="418.0"><tspan x="583.0" dy="0">경영</tspan></text>
+  <rect x="650.0" y="390.0" width="150.0" height="48.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="728.9" y="418.0"><tspan x="728.9" dy="0">3</tspan></text>
+  <path d="M425.0,80.0 L425.0,146.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#1864ab" x="360.0" y="66.0"><tspan x="360.0" dy="0">Attribute (속성/열)</tspan><tspan x="360.0" dy="20">Degree = 4</tspan></text>
+  <path d="M920.0,270.0 L804.0,270.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#2b8a3e" x="930.0" y="266.0"><tspan x="930.0" dy="0">Tuple (튜플/행)</tspan><tspan x="930.0" dy="20">Cardinality = 5</tspan></text>
+  <path d="M160.0,318.0 L646.0,318.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="start" fill="#862e9c" x="-60.0" y="310.0"><tspan x="-60.0" dy="0">Domain (도메인)</tspan><tspan x="-60.0" dy="20">예) 학년 ∈ {1,2,3,4}</tspan></text>
+  <rect x="60.0" y="498.0" width="1180.0" height="120.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="80.0" y="528.0"><tspan x="80.0" dy="0">용어 매핑 (영문 ↔ 한글)</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#444" x="96.0" y="553.0"><tspan x="96.0" dy="0">• Degree       = 차수       = 속성(컬럼) 개수 = 4</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#444" x="96.0" y="571.0"><tspan x="96.0" dy="0">• Cardinality  = 카디널리티 = 튜플(행) 개수   = 5</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#444" x="96.0" y="589.0"><tspan x="96.0" dy="0">• Domain       = 도메인     = 속성이 가질 수 있는 값의 범위</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="start" fill="#444" x="96.0" y="607.0"><tspan x="96.0" dy="0">• NULL은 0·공백과 다름 — &#x27;값 없음&#x27;</tspan></text>
+</svg>

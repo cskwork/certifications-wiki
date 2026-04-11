@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0.0 0.0 1300.0 710.0" width="1300" height="710" style="max-width: 100%; height: auto; background: #ffffff;">
+  <defs><marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker></defs>
+  <rect x="40.0" y="40.0" width="1200.0" height="56.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="56.0" y="72.0"><tspan x="56.0" dy="0">네트워크 보안 공격</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#555" x="56.0" y="88.0"><tspan x="56.0" dy="0">SYN Flooding · Smurf · Watering Hole · 세션 하이재킹</tspan></text>
+  <rect x="1080.0" y="48.0" width="104.0" height="28.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="1135.7" y="67.0"><tspan x="1135.7" dy="0">🔥 매회 출제</tspan></text>
+  <rect x="60.0" y="130.0" width="590.0" height="260.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="76.0" y="160.0"><tspan x="76.0" dy="0">SYN Flooding</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#555" x="76.0" y="178.0"><tspan x="76.0" dy="0">TCP 3-way handshake 취약점 · DoS/DDoS</tspan></text>
+  <rect x="70.0" y="206.0" width="100.0" height="26.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="80.0" y="222.0"><tspan x="80.0" dy="0">Attacker</tspan></text>
+  <rect x="370.0" y="206.0" width="100.0" height="26.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="380.0" y="222.0"><tspan x="380.0" dy="0">Server</tspan></text>
+  <path d="M120.0,232.0 L120.0,356.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M420.0,232.0 L420.0,356.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M120.0,250.0 L420.0,250.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="270.8" y="240.0"><tspan x="270.8" dy="0">SYN (위조IP)</tspan></text>
+  <path d="M420.0,286.0 L120.0,286.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="267.9" y="276.0"><tspan x="267.9" dy="0">SYN-ACK</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#c92a2a" x="160.0" y="326.0"><tspan x="160.0" dy="0">ACK 없음 → 백로그 고갈</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1864ab" x="76.0" y="354.0"><tspan x="76.0" dy="0">방어: SYN Cookie · 방화벽 필터 · 임계값</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#c92a2a" x="76.0" y="374.0"><tspan x="76.0" dy="0">2025-2회 출제</tspan></text>
+  <rect x="670.0" y="130.0" width="590.0" height="260.0" rx="10" fill="#ffe8cc" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="686.0" y="160.0"><tspan x="686.0" dy="0">Smurf 공격</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#555" x="686.0" y="178.0"><tspan x="686.0" dy="0">ICMP 브로드캐스트 증폭 · DDoS</tspan></text>
+  <rect x="670.0" y="230.0" width="80.0" height="30.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#1e1e1e" x="680.0" y="247.0"><tspan x="680.0" dy="0">Attacker</tspan></text>
+  <rect x="830.0" y="230.0" width="120.0" height="30.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#1e1e1e" x="838.0" y="247.0"><tspan x="838.0" dy="0">Broadcast Net</tspan></text>
+  <rect x="1070.0" y="230.0" width="80.0" height="30.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="11" text-anchor="start" fill="#1e1e1e" x="1080.0" y="247.0"><tspan x="1080.0" dy="0">Victim</tspan></text>
+  <path d="M750.0,245.0 L830.0,245.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="770.1" y="235.0"><tspan x="770.1" dy="0">ICMP</tspan><tspan x="770.1" dy="17">(src=피해자)</tspan></text>
+  <path d="M950.0,239.0 L1070.0,239.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <path d="M950.0,245.0 L1070.0,245.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <path d="M950.0,251.0 L1070.0,251.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#444" x="686.0" y="312.0"><tspan x="686.0" dy="0">원리: 출발지 IP를 피해자로 위조 →</tspan><tspan x="686.0" dy="15">브로드캐스트로 보낸 ICMP Reply가 피해자에게 집중</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1864ab" x="686.0" y="354.0"><tspan x="686.0" dy="0">방어: 라우터에서 브로드캐스트 ICMP 차단</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#c92a2a" x="686.0" y="374.0"><tspan x="686.0" dy="0">2024-3회 출제</tspan></text>
+  <rect x="60.0" y="410.0" width="590.0" height="260.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="76.0" y="440.0"><tspan x="76.0" dy="0">Watering Hole</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#555" x="76.0" y="458.0"><tspan x="76.0" dy="0">표적형 · APT 계열 · 사전 감염 후 대기</tspan></text>
+  <rect x="80.0" y="494.0" width="130.0" height="64.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="90.0" y="520.0"><tspan x="90.0" dy="0">공격자</tspan></text>
+  <path d="M210.0,526.0 L220.0,526.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="220.0" y="494.0" width="130.0" height="64.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="230.0" y="520.0"><tspan x="230.0" dy="0">자주 방문 사이트</tspan><tspan x="230.0" dy="15">악성코드 삽입</tspan></text>
+  <path d="M350.0,526.0 L360.0,526.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="360.0" y="494.0" width="130.0" height="64.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="370.0" y="520.0"><tspan x="370.0" dy="0">피해자 방문</tspan></text>
+  <path d="M490.0,526.0 L500.0,526.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="500.0" y="494.0" width="130.0" height="64.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="510.0" y="520.0"><tspan x="510.0" dy="0">자동 감염</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#444" x="76.0" y="592.0"><tspan x="76.0" dy="0">원리: 공격 대상이 자주 방문하는 사이트를</tspan><tspan x="76.0" dy="15">미리 감염시켜 두고 방문을 기다림</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1864ab" x="76.0" y="634.0"><tspan x="76.0" dy="0">방어: 브라우저/플러그인 최신 패치 · 행위 기반 탐지</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#c92a2a" x="76.0" y="654.0"><tspan x="76.0" dy="0">2024-1회 출제</tspan></text>
+  <rect x="670.0" y="410.0" width="590.0" height="260.0" rx="10" fill="#e5dbff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="20" text-anchor="start" fill="#1e1e1e" x="686.0" y="440.0"><tspan x="686.0" dy="0">Session Hijacking</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#555" x="686.0" y="458.0"><tspan x="686.0" dy="0">세션 하이재킹 · 인증 세션 탈취</tspan></text>
+  <rect x="680.0" y="506.0" width="100.0" height="30.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="692.0" y="524.0"><tspan x="692.0" dy="0">Client</tspan></text>
+  <rect x="1060.0" y="506.0" width="100.0" height="30.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="1072.0" y="524.0"><tspan x="1072.0" dy="0">Server</tspan></text>
+  <path d="M780.0,521.0 L1060.0,521.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="932.9" y="511.0"><tspan x="932.9" dy="0">인증 세션</tspan></text>
+  <rect x="860.0" y="566.0" width="120.0" height="30.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="868.0" y="584.0"><tspan x="868.0" dy="0">Attacker</tspan></text>
+  <path d="M920.0,566.0 L920.0,536.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="930.5" y="541.0"><tspan x="930.5" dy="0">세션ID 탈취</tspan></text>
+  <path d="M940.0,581.0 L1060.0,531.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="1012.9" y="546.0"><tspan x="1012.9" dy="0">무단 접속</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#444" x="686.0" y="602.0"><tspan x="686.0" dy="0">취약점: TCP 시퀀스 예측 · 세션 ID 스니핑</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1864ab" x="686.0" y="634.0"><tspan x="686.0" dy="0">방어: HTTPS · 로그인 후 세션 재생성 · HttpOnly/Secure</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#c92a2a" x="686.0" y="654.0"><tspan x="686.0" dy="0">2025-1회 출제</tspan></text>
+</svg>

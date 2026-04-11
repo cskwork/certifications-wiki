@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0.0 0.0 1300.0 750.0" width="1300" height="750" style="max-width: 100%; height: auto; background: #ffffff;">
+  <defs><marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker></defs>
+  <rect x="40.0" y="40.0" width="1200.0" height="56.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="22" text-anchor="start" fill="#1e1e1e" x="56.0" y="72.0"><tspan x="56.0" dy="0">DML — Data Manipulation Language</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#555" x="56.0" y="88.0"><tspan x="56.0" dy="0">데이터 조회·삽입·수정·삭제 · COMMIT/ROLLBACK 가능</tspan></text>
+  <rect x="1080.0" y="48.0" width="104.0" height="28.0" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="13" text-anchor="middle" fill="#1e1e1e" x="1135.7" y="67.0"><tspan x="1135.7" dy="0">🔥 매회 출제</tspan></text>
+  <rect x="60.0" y="140.0" width="285.0" height="180.0" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="24" text-anchor="start" fill="#1e1e1e" x="80.0" y="178.0"><tspan x="80.0" dy="0">SELECT</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#555" x="80.0" y="204.0"><tspan x="80.0" dy="0">조회</tspan></text>
+  <rect x="76.0" y="220.0" width="253.0" height="84.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="88.0" y="244.0"><tspan x="88.0" dy="0">SELECT 컬럼 FROM 테이블</tspan><tspan x="88.0" dy="15">WHERE 조건;</tspan></text>
+  <rect x="365.0" y="140.0" width="285.0" height="180.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="24" text-anchor="start" fill="#1e1e1e" x="385.0" y="178.0"><tspan x="385.0" dy="0">INSERT</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#555" x="385.0" y="204.0"><tspan x="385.0" dy="0">삽입</tspan></text>
+  <rect x="381.0" y="220.0" width="253.0" height="84.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="393.0" y="244.0"><tspan x="393.0" dy="0">INSERT INTO T(컬럼)</tspan><tspan x="393.0" dy="15">VALUES (값);</tspan></text>
+  <rect x="670.0" y="140.0" width="285.0" height="180.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="24" text-anchor="start" fill="#1e1e1e" x="690.0" y="178.0"><tspan x="690.0" dy="0">UPDATE</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#555" x="690.0" y="204.0"><tspan x="690.0" dy="0">수정</tspan></text>
+  <rect x="686.0" y="220.0" width="253.0" height="84.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="698.0" y="244.0"><tspan x="698.0" dy="0">UPDATE T SET 컬럼=값</tspan><tspan x="698.0" dy="15">WHERE 조건;</tspan></text>
+  <rect x="975.0" y="140.0" width="285.0" height="180.0" rx="10" fill="#ffdeeb" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="24" text-anchor="start" fill="#1e1e1e" x="995.0" y="178.0"><tspan x="995.0" dy="0">DELETE</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#555" x="995.0" y="204.0"><tspan x="995.0" dy="0">삭제</tspan></text>
+  <rect x="991.0" y="220.0" width="253.0" height="84.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="12" text-anchor="start" fill="#1e1e1e" x="1003.0" y="244.0"><tspan x="1003.0" dy="0">DELETE FROM T</tspan><tspan x="1003.0" dy="15">WHERE 조건;</tspan></text>
+  <rect x="60.0" y="360.0" width="1180.0" height="220.0" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="80.0" y="390.0"><tspan x="80.0" dy="0">SELECT 절 순서 — 작성 순서 ≠ 실행 순서 (시험 단골)</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#555" x="80.0" y="444.0"><tspan x="80.0" dy="0">작성 순서</tspan></text>
+  <rect x="230.0" y="424.0" width="100.0" height="34.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="273.1" y="444.0"><tspan x="273.1" dy="0">SELECT</tspan></text>
+  <path d="M332.0,440.0 L350.0,440.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="352.0" y="424.0" width="76.0" height="34.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="387.4" y="444.0"><tspan x="387.4" dy="0">FROM</tspan></text>
+  <path d="M430.0,440.0 L448.0,440.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="450.0" y="424.0" width="88.0" height="34.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="489.2" y="444.0"><tspan x="489.2" dy="0">WHERE</tspan></text>
+  <path d="M540.0,440.0 L558.0,440.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="560.0" y="424.0" width="124.0" height="34.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="610.8" y="444.0"><tspan x="610.8" dy="0">GROUP BY</tspan></text>
+  <path d="M686.0,440.0 L704.0,440.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="706.0" y="424.0" width="100.0" height="34.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="749.1" y="444.0"><tspan x="749.1" dy="0">HAVING</tspan></text>
+  <path d="M808.0,440.0 L826.0,440.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="828.0" y="424.0" width="124.0" height="34.0" rx="10" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="878.8" y="444.0"><tspan x="878.8" dy="0">ORDER BY</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#555" x="80.0" y="524.0"><tspan x="80.0" dy="0">실행 순서</tspan></text>
+  <rect x="230.0" y="504.0" width="76.0" height="34.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="265.4" y="524.0"><tspan x="265.4" dy="0">FROM</tspan></text>
+  <path d="M308.0,520.0 L326.0,520.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="328.0" y="504.0" width="88.0" height="34.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="367.2" y="524.0"><tspan x="367.2" dy="0">WHERE</tspan></text>
+  <path d="M418.0,520.0 L436.0,520.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="438.0" y="504.0" width="124.0" height="34.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="488.8" y="524.0"><tspan x="488.8" dy="0">GROUP BY</tspan></text>
+  <path d="M564.0,520.0 L582.0,520.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="584.0" y="504.0" width="52.0" height="34.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="618.0" y="524.0"><tspan x="618.0" dy="0">집계</tspan></text>
+  <path d="M638.0,520.0 L656.0,520.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="658.0" y="504.0" width="100.0" height="34.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="701.1" y="524.0"><tspan x="701.1" dy="0">HAVING</tspan></text>
+  <path d="M760.0,520.0 L778.0,520.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="780.0" y="504.0" width="100.0" height="34.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="823.1" y="524.0"><tspan x="823.1" dy="0">SELECT</tspan></text>
+  <path d="M882.0,520.0 L900.0,520.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)"/>
+  <rect x="902.0" y="504.0" width="124.0" height="34.0" rx="10" fill="#d0ebff" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="middle" fill="#1e1e1e" x="952.8" y="524.0"><tspan x="952.8" dy="0">ORDER BY</tspan></text>
+  <rect x="60.0" y="610.0" width="1180.0" height="100.0" rx="10" fill="#f1f3f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" text-anchor="start" fill="#1e1e1e" x="80.0" y="640.0"><tspan x="80.0" dy="0">INSERT 두 가지 형태</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#1e1e1e" x="80.0" y="668.0"><tspan x="80.0" dy="0">① 직접 삽입: INSERT INTO T(col) VALUES (값)</tspan></text>
+  <text font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="start" fill="#c92a2a" x="80.0" y="694.0"><tspan x="80.0" dy="0">② 조회 삽입: INSERT INTO T(col) SELECT ... FROM ...   ← 2024-2회 기출</tspan></text>
+</svg>
