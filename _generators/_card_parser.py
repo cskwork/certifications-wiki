@@ -4,7 +4,8 @@ gen_quartz_pages.py / export_svg.py가 공유하는 카드 메타/본문 파서.
 원래 build_index.py에 있던 로직을 추출했다.
 
 카드 원본 위치: ~/Documents/PARA/Resource/bite-size-study/content/cards/{subject}/
-각 카드는 frontmatter(yaml) + 본문 섹션(핵심 개념/키워드/기출 포인트/연결 개념).
+각 카드는 frontmatter(yaml) + 본문 섹션:
+    왜 배우나 / 핵심 개념 / 키워드 / 이해 확인 / 기출 포인트 / 연결 개념
 """
 from __future__ import annotations
 
@@ -38,8 +39,10 @@ class Card:
     wiki_folder: str
     title: str
     priority: int
+    why: str
     summary: str
     keywords: list[str]
+    self_check: str
     exam_tip: str
 
 
@@ -56,8 +59,10 @@ def parse_card(path: Path, wiki_folder: str) -> Card | None:
         sm = re.search(pat, body, re.DOTALL)
         return sm.group(1).strip() if sm else ""
 
+    why = _section("왜 배우나")
     summary = _section("핵심 개념")
     keywords_raw = _section("키워드")
+    self_check = _section("이해 확인")
     exam_tip = re.sub(r"^>\s*", "", _section("기출 포인트")).strip()
 
     keywords: list[str] = []
@@ -72,8 +77,10 @@ def parse_card(path: Path, wiki_folder: str) -> Card | None:
         wiki_folder=wiki_folder,
         title=fm.get("title", path.stem),
         priority=int(fm.get("priority", 0)),
+        why=why,
         summary=" ".join(summary.split()),
         keywords=keywords,
+        self_check=self_check,
         exam_tip=" ".join(exam_tip.split()),
     )
 
