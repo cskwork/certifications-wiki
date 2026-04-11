@@ -1,30 +1,25 @@
 #!/usr/bin/env bash
 #
-# 위키 서브트리(정보처리기사)를 이 Quartz 레포의 content/로 동기화한다.
-# 편집 워크플로:
-#   1) Obsidian에서 /Users/danny/wiki/certifications/정보처리기사/ 편집
-#   2) 필요 시 _generators 아래 스크립트 재실행
-#   3) 이 스크립트 실행해 content/ 최신화
-#   4) git add content && git commit && git push  → GitHub Actions가 배포
+# bite-size-study 카드 원본 → 이 Quartz 레포의 content/ 재생성.
+#
+# 새 워크플로(networked-thought 구조):
+#   1) ~/Documents/PARA/Resource/bite-size-study/content/cards/ 에서 카드 편집
+#   2) 이 스크립트 실행 → content/ 재빌드(과목별 개별 .md + MOC)
+#   3) git add -A && git commit && git push → GitHub Actions가 배포
+#
+# 구조:
+#   _generators/_card_parser.py       카드 파서(공용)
+#   _generators/gen_quartz_pages.py   카드 → 개별 페이지 생성
+#   _generators/export_svg.py         .excalidraw → .svg
 #
 set -euo pipefail
 
-SRC="/Users/danny/wiki/certifications/정보처리기사/"
-DST="$(cd "$(dirname "$0")" && pwd)/content/"
+REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
+cd "$REPO_ROOT"
 
-if [[ ! -d "$SRC" ]]; then
-  echo "❌ source not found: $SRC" >&2
-  exit 1
-fi
-
-echo "→ sync $SRC  →  $DST"
-
-rsync -av --delete \
-  --exclude='_generators/__pycache__' \
-  --exclude='.obsidian' \
-  --exclude='.DS_Store' \
-  "$SRC" "$DST"
+echo "→ 카드 → Quartz 페이지 재생성"
+python3 _generators/gen_quartz_pages.py
 
 echo ""
-echo "✓ sync complete. files in content/:"
-find "$DST" -maxdepth 2 -type f \( -name '*.md' -o -name '*.svg' -o -name '*.excalidraw' \) | wc -l | xargs -I{} echo "  {} files"
+echo "✓ content/ 파일 수:"
+find content -type f \( -name '*.md' -o -name '*.svg' -o -name '*.excalidraw' \) | wc -l | xargs -I{} echo "  {} files"

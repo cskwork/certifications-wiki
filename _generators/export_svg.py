@@ -16,6 +16,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+CONTENT_ROOT = ROOT / "content"
 SUBJECTS = ["db", "nw", "os", "pg", "se"]
 
 PAD = 40  # SVG viewBox padding
@@ -177,7 +178,7 @@ def to_svg(excalidraw_path: Path) -> str:
 def main() -> None:
     total = 0
     for sub in SUBJECTS:
-        folder = ROOT / sub
+        folder = CONTENT_ROOT / sub
         if not folder.exists():
             continue
         for src in sorted(folder.glob("*.excalidraw")):
