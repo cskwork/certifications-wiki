@@ -16,28 +16,47 @@ tags:
 
 ## 🌱 왜 배우나
 
-데이터베이스를 "공책"이라고 하면, 먼저 해야 할 일은 **어떤 칸을 만들지 그리는 일**이다. 이름 칸, 전화번호 칸, 주소 칸. 나중에 주소 칸이 너무 좁아 늘려야 할 수도 있고, 필요 없어진 칸을 지워야 할 수도 있다. DDL이 없다면 테이블을 만들 수도, 고칠 수도, 지울 수도 없어 DB는 아무 일도 시작할 수 없다. 마치 가구 없는 집에 이사해 놓고 옷장·책상을 살 방법이 없는 상황이다. 그래서 데이터를 "담기 전에 그릇부터 설계"하는 언어가 필요해졌고, 그게 DDL이다.
+데이터베이스를 공책이라고 하면, 먼저 해야 할 일은 어떤 칸을 만들지 줄을 긋는 일이다. 이름 칸, 전화번호 칸, 주소 칸. 나중에 주소 칸이 너무 좁으면 늘려야 하고, 필요 없어진 칸은 지워야 한다. DDL(Data Definition Language, 데이터 정의어)이 없으면 표(테이블)를 만들 수도, 고칠 수도, 지울 수도 없어서 데이터베이스는 아무 일도 시작할 수 없다. 가구 없는 집에 이사해 놓고 옷장·책상을 살 방법이 없는 상황과 같다. 데이터를 담기 전에 그릇부터 만드는 언어, 그것이 DDL이다.
 
 ## 📖 핵심 개념
 
-DDL(Data Definition Language, 데이터 정의어)은 데이터베이스 **스키마(구조)**를 정의, 변경, 삭제하는 SQL 명령어 집합이다. DDL 명령어는 실행 즉시 **자동 커밋(Auto Commit)**되므로 ROLLBACK이 불가능하다. 대상은 테이블, 뷰, 인덱스, 스키마, 도메인 등이다.
+DDL(Data Definition Language, 데이터 정의어)은 데이터베이스의 구조(스키마, Schema — 표의 이름·열·타입 등 뼈대 설계)를 만들고, 바꾸고, 지우는 SQL(Structured Query Language, 구조적 질의 언어) 명령어 모음이다. DDL 명령어는 실행 즉시 자동 커밋(Auto Commit — 실행하면 바로 확정되어 되돌릴 수 없음)된다. 따라서 ROLLBACK(되돌리기)이 불가능하다. DDL이 다루는 대상은 테이블, 뷰(View, 가상 테이블), 인덱스(Index, 검색 속도를 높이는 색인), 스키마 등이다.
+
+## 🔍 시각화
+
+```
+DDL 명령어 네 가지와 하는 일:
+
+CREATE ──▶ 새 표(테이블) 만들기        "옷장을 새로 산다"
+ALTER  ──▶ 기존 표 구조 변경            "서랍을 추가/제거한다"
+DROP   ──▶ 표 자체를 완전 삭제          "옷장째로 버린다"
+TRUNCATE ▶ 표는 남기고 데이터만 전부 삭제 "옷장은 두고 옷만 다 버린다"
+
+⚠ 네 명령 모두 자동 커밋 → ROLLBACK 불가
+```
+
+## ↔️ 이웃 개념 구분
+
+- **DDL vs DML**: DDL은 구조(표 자체)를 다루고, DML(Data Manipulation Language, 데이터 조작어)은 데이터(표 안의 값)를 다룬다. DDL은 자동 커밋, DML은 ROLLBACK 가능.
+- **DROP vs TRUNCATE vs DELETE**: DROP은 표+데이터 모두 삭제, TRUNCATE는 표는 남기고 데이터 전부 삭제(자동 커밋), DELETE는 조건 지정 가능하고 ROLLBACK 가능.
 
 **핵심 용어**
 
-- **CREATE**: 테이블, 뷰, 인덱스 등 객체 생성. `CREATE TABLE 학생 (학번 INT PRIMARY KEY, 이름 VARCHAR(20) NOT NULL);`
-- **ALTER**: 기존 객체 구조 변경. `ADD`(컬럼 추가), `MODIFY`(컬럼 타입 변경), `DROP COLUMN`(컬럼 삭제), `RENAME`(이름 변경)
-- **DROP**: 객체 완전 삭제(구조+데이터). `CASCADE`는 참조하는 모든 객체 함께 삭제, `RESTRICT`는 참조 객체 있으면 삭제 거부
-- **TRUNCATE**: 테이블의 **모든 데이터만 삭제**(구조 유지). DROP과 달리 테이블 자체는 남으며, DELETE와 달리 로그를 남기지 않아 ROLLBACK 불가
-- **제약조건**: PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK, DEFAULT — CREATE/ALTER 시 함께 정의
+- **CREATE**: 테이블, 뷰, 인덱스 등 객체를 새로 만든다. 예: `CREATE TABLE 학생 (학번 INT PRIMARY KEY, 이름 VARCHAR(20) NOT NULL);`
+- **ALTER**: 기존 객체의 구조를 변경한다. `ADD`(열 추가), `MODIFY`(열 타입 변경), `DROP COLUMN`(열 삭제), `RENAME`(이름 변경).
+- **DROP**: 객체를 구조째 완전 삭제한다. `CASCADE`(참조하는 모든 객체를 함께 삭제), `RESTRICT`(참조 객체가 있으면 삭제 거부).
+- **TRUNCATE**: 테이블의 모든 데이터만 삭제하고 구조는 유지한다. 로그를 남기지 않아 ROLLBACK 불가.
+- **제약조건(Constraint)**: PRIMARY KEY(기본키), FOREIGN KEY(외래키), UNIQUE(유일값), NOT NULL(빈값 금지), CHECK(값 조건), DEFAULT(기본값) — CREATE/ALTER 시 함께 정의한다.
 
-## ✅ 이해 확인
+## ✅ 스스로 가르쳐보기
 
-1. 테이블의 구조는 그대로 두고 데이터만 모두 비우고 싶을 때 사용하는 DDL 명령어는?
-   <details><summary>정답</summary>TRUNCATE — 구조는 유지하고 모든 행을 제거한다. DELETE와 달리 롤백이 불가하다.</details>
-2. 다른 테이블이 참조 중인 테이블을 DROP 하려고 한다. 참조 테이블까지 함께 지우려면 어떤 옵션이 필요한가?
-   <details><summary>정답</summary>CASCADE — 참조하는 모든 객체를 함께 삭제한다. RESTRICT는 참조가 있으면 삭제를 거부한다.</details>
-3. DELETE와 TRUNCATE의 차이 세 가지를 들어 보라.
-   <details><summary>정답</summary>(1) DELETE는 DML, TRUNCATE는 DDL. (2) DELETE는 WHERE로 선택 삭제 가능, TRUNCATE는 전체만. (3) DELETE는 로그를 남겨 ROLLBACK 가능, TRUNCATE는 자동 커밋되어 ROLLBACK 불가.</details>
+**질문**: 친구에게 "DDL 명령어 네 가지가 각각 무엇을 하고, DML과 어떻게 다른지" 설명해 보라.
+
+체크포인트:
+- [ ] CREATE·ALTER·DROP·TRUNCATE 각각의 역할을 한 줄로 말했는가?
+- [ ] DROP과 TRUNCATE의 차이를 "구조 삭제 여부"로 구분했는가?
+- [ ] DDL은 자동 커밋, DML은 ROLLBACK 가능하다는 차이를 언급했는가?
+- [ ] CASCADE와 RESTRICT의 의미를 설명할 수 있는가?
 
 ## 🎯 시험 응용
 
