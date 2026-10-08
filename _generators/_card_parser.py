@@ -16,7 +16,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-CARD_ROOT = Path("/Users/danny/Documents/PARA/Resource/bite-size-study/content/cards")
+CARD_ROOT = (Path.home() / 'Documents/PARA/Resource/bite-size-study/content/cards')
 CONTENT_ROOT = ROOT / "content"
 
 # (wiki 폴더, 카드 폴더, 제목, 이모지)

@@ -32,7 +32,7 @@
 
 ## 편집 및 배포 흐름
 
-1. **편집** — `/Users/danny/wiki/certifications/정보처리기사/`에서 Obsidian Excalidraw 플러그인으로
+1. **편집** — `~/wiki/certifications/정보처리기사/`에서 Obsidian Excalidraw 플러그인으로
    직접 `.excalidraw` 파일을 연다. 또는 `_generators/gen_*.py` 해당 함수를 수정해 일괄 재생성.
 2. **SVG 재렌더** — `python3 content/_generators/export_svg.py` 실행.
 3. **동기화** — 레포 루트에서 `./sync-from-wiki.sh` 실행 → 위키 서브트리가 `content/`로 복사.
